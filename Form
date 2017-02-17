@@ -1,0 +1,40 @@
+<html>
+<body>
+<h1>Personal Information</h1>
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" 
+  <br><br>
+  Middle name:<br>
+  <input type="text" name="Middlename"
+  <br><br>
+  Last name:<br>
+  <input type="text" name="lastname" 
+  <br><br><br>
+  Age:<br>
+  <input type="text" name="Age"
+  <br><br><br>
+  Birthdate:<br>
+  <input type="text" name="Birthdate"
+  <br><br>
+  I.D number:<br>
+  <input type="text" name="I.D number"
+  <br><br>
+  Email:<br>
+  <input type="text" name="Email"
+  <br><br>
+  
+  <input type="submit" value="Submit">
+  <br><input type = "reset" value = "Reset">
+  <p><b> Gender</b></p>
+	<input type = "radio" name = "gender" value = "male" checked>Male<br>
+	<input type = "radio" name = "gender" value = "female">Female<br>
+  
+  
+  
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
